@@ -1,0 +1,82 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fundo preto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a altura total da tela */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px; /* Largura máxima da caixinha */
+    padding: 20px;
+    background-color: #a6a6a6; /* Caixinha cinza */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinhamento à esquerda */
+    box-sizing: border-box; /* Inclui o padding e border no cálculo da largura */
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #000000; /* Cor do texto do título */
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #0d0d0d;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  
+  form p {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa; /* Borda cinza clara */
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Inclui o padding e border no cálculo da largura */
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #525456;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1f1f20;
+  }
+  
+  .error-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #1c2c72;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+  }
+  
